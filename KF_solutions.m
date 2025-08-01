@@ -25,13 +25,6 @@ tspan = [0 t_end];
 % Specify error tolerance for integration step
 opts = odeset('RelTol',1e-10,'AbsTol',1e-12);
 
-z0 = (-(alpha+1-beta)+sqrt((alpha+1-beta)^2+4*alpha))/(2*beta);
-s0 = alpha/(alpha+beta*z0);
-
- 
-% ICs
-y0 = [1;1;z0;s0];
-
 %% Full 4D system
 
 % ICs
