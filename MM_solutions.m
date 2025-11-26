@@ -1,6 +1,6 @@
 % Generates Figure 2b of "Coordinate Independendent Model Reductions of Chemical
 % Reaction Networks Based on Geometric Singular Perturbation Theory"
-% T.E.F. Lapuz and M. Wechselberger 2025
+% T.E.F. Lapuz and M. Wechselberger 2026
 
 %% Setting up
 % Parameter values
@@ -25,9 +25,9 @@ y0 = [1,0];
 figure(1); 
 hold on;
 plot(y(:,1),y(:,2),'Color',[0.2 0.2 0.8],'LineWidth',4); 
-set(gca,'fontsize', 16) 
-xlabel('$s$','Interpreter','Latex', 'FontSize', 20);  
-ylabel('$c$','Interpreter','Latex', 'FontSize', 20);
+set(gca,'fontsize', 19) 
+xlabel('$s$','Interpreter','Latex', 'FontSize', 23);  
+ylabel('$c$','Interpreter','Latex', 'FontSize', 23);
 grid on; 
 xlim([0,1])
 ylim([0,0.5])
@@ -54,5 +54,5 @@ cp = (sp./(sp+alpha));
 % Phase plane plots
 figure(1)
 plot(sp,cp,'Color',[0.2 0.8 0.2],'LineStyle','--','LineWidth',4); 
-legend('Full', 'GSPT', 'FontSize', 14)
+legend('Full','GSPT','interpreter','latex')
 

@@ -2,7 +2,7 @@
 % 
 % "Coordinate Independendent Model Reductions of Chemical
 % Reaction Networks Based on Geometric Singular Perturbation Theory"
-% T.E.F. Lapuz and M. Wechselberger 2025
+% T.E.F. Lapuz and M. Wechselberger 2026
 
 function dydt = KF_ODE(t,y,alpha,beta,gamma,rho1,rho2,rho3,rho4,rho5,rho6)
 

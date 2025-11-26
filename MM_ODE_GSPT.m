@@ -2,7 +2,7 @@
 % 
 % "Coordinate Independendent Model Reductions of Chemical
 % Reaction Networks Based on Geometric Singular Perturbation Theory"
-% T.E.F. Lapuz and M. Wechselberger 2025
+% T.E.F. Lapuz and M. Wechselberger 2026
 
 
 function dydt = MM_ODE_GSPT(t,y,alpha,beta,gamma)

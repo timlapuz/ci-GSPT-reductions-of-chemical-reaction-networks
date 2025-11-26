@@ -1,6 +1,6 @@
 % Generates Figure 3b of "Coordinate Independendent Model Reductions of Chemical
 % Reaction Networks Based on Geometric Singular Perturbation Theory"
-% T.E.F. Lapuz and M. Wechselberger 2025
+% T.E.F. Lapuz and M. Wechselberger 2026
 
 %% Setting up
 % Parameter values
@@ -64,7 +64,8 @@ figure(1)
 plot(t,z,'LineWidth',4,'Color',[0.2 0.8 0.2],'LineStyle','--'); 
 hold on;
 grid on;
-legend('Full $z$','GSPT $z$','interpreter','latex')
-set(gca,'FontSize',17)
+legend('Full','GSPT','interpreter','latex')
+set(gca,'FontSize',20)
 xlim([4e7,6e7])
-
+xlabel('$t$','Interpreter','Latex', 'FontSize', 24);  
+ylabel('$z$','Interpreter','Latex', 'FontSize', 24);
