@@ -1,4 +1,4 @@
-% ODE of a ci-GSPT reduction (gamma<<1,alpha,beta=O(1)) of the KF reaction.
+% ODE of a ci-GSPT reduction of the KF reaction.
 % 
 % "Coordinate Independendent Model Reductions of Chemical
 % Reaction Networks Based on Geometric Singular Perturbation Theory"

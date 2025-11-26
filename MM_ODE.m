@@ -1,4 +1,4 @@
-% ODEs of the irreversible MM.
+% ODEs of the irreversible MM
 % 
 % "Coordinate Independendent Model Reductions of Chemical
 % Reaction Networks Based on Geometric Singular Perturbation Theory"

@@ -1,4 +1,4 @@
-% ODE of a ci-GSPT reduction (gamma<<1,alpha,beta=O(1)) of the irreversible MM.
+% ODE of a ci-GSPT reduction (gamma<<1,alpha,beta=O(1)) of the irreversible MM
 % 
 % "Coordinate Independendent Model Reductions of Chemical
 % Reaction Networks Based on Geometric Singular Perturbation Theory"
